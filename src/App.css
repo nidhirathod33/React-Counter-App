@@ -1,0 +1,75 @@
+body{
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  height:100%;
+}
+.app_container
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:cornsilk;
+}
+.counter_card
+{
+  background-color:rgb(219, 219, 219);
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0.2, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.50);
+
+}
+.title
+{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+.count{
+font-size: 60px;
+font-weight: bold;
+color: #333333;
+margin-bottom: 30px;
+ 
+}
+.button
+{
+   display: flex;
+   gap:20px;
+   justify-content: center;
+   
+   
+}
+button
+{
+  cursor: pointer;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  transition: background 0.3s ease;
+  height: 35px;
+  min-width: 100px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.add_btn{
+  background-color: rgb(53, 53, 176);
+}
+.add_btn:hover{
+  background-color:rgb(233, 216, 216);
+  color: rgb(51, 48, 48);
+}
+.remove_btn{
+  background-color: rgb(53, 53, 176);
+}
+.remove_btn:hover{
+  background-color:rgb(233, 216, 216);
+  color: rgb(51, 48, 48);
+}
+
+
