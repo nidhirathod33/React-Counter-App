@@ -18,7 +18,6 @@ A basic counter application built using React. It allows users to increment and 
 ## 📁 Project Structure
 
 react-counter-app/
-├── public/
 ├── src/
 │ ├── App.js
 │ ├── App.css
